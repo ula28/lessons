@@ -1,7 +1,13 @@
 .App {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.bg {
+    width: 600px;
+    height: 400px;
+    background: url(./assets/images/image.jpg) no-repeat center/contain;
 }
